@@ -1,0 +1,64 @@
+
+main {
+    width: 80%;
+    padding: 12em 0;
+}
+header {
+    height: 6em;
+}
+header a:nth-child(2) {
+    font-size: 20px;
+    font-size: 2rem;
+    float: right;
+}
+header .logo-image {
+        width: 22em;
+        height: 4.5em;
+        margin: 0.5em;
+}
+
+.dropdown a {
+    margin-right: 2em;
+    padding: 0.5em;  
+}
+.dropdown:hover .dropdown-content {
+     @include flex (flex, row wrap);     
+     justify-content: center; 
+}
+
+.dropdown-content a {
+    padding: 1em 1em 0.4em 1em;
+    width: unset;
+}
+ul li {
+    width: unset;
+}
+
+.profile_img_placeholder {
+    margin-right: 2em;
+}
+
+.profile-content-holder {
+    @include flex (flex, row wrap); 
+    margin: 0 12em 4em 12em;
+    // width: auto;
+}
+
+.postform > input:first-of-type {
+  width:40%;
+ }
+
+ .info-text {
+    padding: 0 2em 4em 2em;
+ }
+ .text {
+     padding: 0 0 0 0;
+ }
+
+.social a {
+    font-size: 30px;
+}
+
+h2 .messages {
+    margin: 4em 0 0 0;
+}

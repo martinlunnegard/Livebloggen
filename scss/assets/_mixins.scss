@@ -1,0 +1,16 @@
+@mixin imgstyling ($attachment, $repeat, $backgroundsize) {
+background-attachment: $attachment;
+background-repeat: $repeat;
+background-size: $backgroundsize;
+}
+
+@mixin flex ($flexdisplay, $flexflow) {
+display: $flexdisplay; //-webkit-box;
+display: $flexdisplay; //-moz-box;
+display: $flexdisplay; //-ms-flexbox;
+display: $flexdisplay; //-webkit-flex;
+display: $flexdisplay; //flex;  
+-webkit-flex-flow: $flexflow; //row wrap;
+flex-flow: $flexflow; //row wrap;
+}
+

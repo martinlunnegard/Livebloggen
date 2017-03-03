@@ -1,0 +1,32 @@
+.container {
+
+}
+.comment-container, .login, .register  {
+    padding: 2em 8em 0 8em;
+}
+.text {
+    margin: 0;
+    text-align: justify;
+}
+textarea {
+    min-height: 20em;
+    margin-bottom: 2em;
+}
+.post {
+    height: 22em;
+    width: 22em;
+}
+
+.sort-posts {
+    margin: 0 5em;
+}
+
+.big-image {
+    height: 35em;
+    object-fit: cover;
+}
+
+.dropdown-content a {
+    padding: 2em 3em 0.4em 3em;
+    width: unset;
+}
